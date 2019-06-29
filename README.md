@@ -5,17 +5,23 @@
 
 ## Objective 
 
-### Program drone to autonomously fly and scan QR codes for inventory management and warehoue servailance.
+### Program drone to autonomously fly and scan QR codes for inventory management and or warehoue servailance.
+
+## Goals
+### Have a website where you can check, update inventory remotely with drone. 
+### Send information from drone to database.
+### Use computer vision to read and send data back to database.
 
 ## Technologies
 
 - Mysql
-- Tensor Flow
+- Tensor Flow (?)
 - QR reader, module
 - Python
 - DJI Tello Drone
 - DJI SDK
 - Socket io
+- Raspberry Pi
 
 
 
