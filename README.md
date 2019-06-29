@@ -3,8 +3,19 @@
 
 # Main Concept - Drone Autonomy
 
-## Technologies 
+## Objective 
 
+### Drone 
+
+## Technologies
+
+- Mysql
+- Tensor Flow
+- QR reader, module
+- Python
+- DJI Tello Drone
+- DJI SDK
+- Socket io
 - 
 
 
