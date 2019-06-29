@@ -5,7 +5,7 @@
 
 ## Objective 
 
-### Drone 
+### Program drone to autonomously fly and scan QR codes for inventory management and warehoue servailance.
 
 ## Technologies
 
