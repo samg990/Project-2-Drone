@@ -1,2 +1,60 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="container">
+    <div class="jumbotron text-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 id="color-title">{{title}}</h1>
+                <p id="color-override">Welcome to {{title}}</p>
+                <br>
+                <h2 id="color-override"></h2>
+                <panel>
+                    <form class="create-form">
+                        <div class="form-group">
+                            <label for="itemScan" id="color-override">Enter Item to Scan</label>
+                            <input type="text" id="newscan" name="scan">
+                            {{!-- Create a button in index.handlebars that will submit the user input into the database. --}}
+                            <button type="submit" class="btn btn-success" id="addscan"><span
+                                    class="fa fa-check"></span></button>
+                        </div>
+                    </form>
+                </panel>
+            </div>
+
+        </div>
+    </div><!-- /jumbotron -->
+
+    <hr>
+
+    <div class="row">
+        <!-- Undevoured Burgers -->
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading" id="lefthead"><strong>Product Info</strong></div>
+                <div class="panel-body">
+                    <ul>
+                        <li>List Item One
+                            <button type="button" class="btn btn-success" data-id="button">Click Here</button>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                </div>
+            </div>
+        </div>
+        <!-- Devoured Burgers -->
+        <div class="col-sm-6">
+            <div class="panel panel-default">
+                <div class="panel-heading" id="righthead"><strong>Product Image</strong></div>
+                <div class="panel-body">
+                    <ul>
+                        <li>List Item One
+                            <button type="button" class="btn btn-success" data-id="button">Click Here</button>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div><!-- /row -->
+
+</div><!-- /container -->
